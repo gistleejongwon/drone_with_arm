@@ -1,0 +1,1 @@
+/home/jongwon/catkin_ws/devel/.private/control_msgs/share/roseus/ros/control_msgs/msg/JointTrajectoryActionGoal.l

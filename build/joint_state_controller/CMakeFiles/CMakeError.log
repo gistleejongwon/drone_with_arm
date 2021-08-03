@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/jongwon/catkin_ws/build/joint_state_controller/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22ead/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22ead.dir/build.make CMakeFiles/cmTC_22ead.dir/build
+make[1]: 디렉터리 '/home/jongwon/catkin_ws/build/joint_state_controller/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_22ead.dir/CheckSymbolExists.c.o
+/usr/lib/ccache/cc    -o CMakeFiles/cmTC_22ead.dir/CheckSymbolExists.c.o   -c /home/jongwon/catkin_ws/build/joint_state_controller/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_22ead
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22ead.dir/link.txt --verbose=1
+/usr/lib/ccache/cc      -rdynamic CMakeFiles/cmTC_22ead.dir/CheckSymbolExists.c.o  -o cmTC_22ead 
+CMakeFiles/cmTC_22ead.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_22ead.dir/build.make:97: recipe for target 'cmTC_22ead' failed
+make[1]: *** [cmTC_22ead] Error 1
+make[1]: 디렉터리 '/home/jongwon/catkin_ws/build/joint_state_controller/CMakeFiles/CMakeTmp' 나감
+Makefile:126: recipe for target 'cmTC_22ead/fast' failed
+make: *** [cmTC_22ead/fast] Error 2
+
+File /home/jongwon/catkin_ws/build/joint_state_controller/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/jongwon/catkin_ws/build/joint_state_controller/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eaca6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eaca6.dir/build.make CMakeFiles/cmTC_eaca6.dir/build
+make[1]: 디렉터리 '/home/jongwon/catkin_ws/build/joint_state_controller/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_eaca6.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_eaca6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eaca6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaca6.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_eaca6.dir/CheckFunctionExists.c.o  -o cmTC_eaca6 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_eaca6.dir/build.make:97: recipe for target 'cmTC_eaca6' failed
+make[1]: *** [cmTC_eaca6] Error 1
+make[1]: 디렉터리 '/home/jongwon/catkin_ws/build/joint_state_controller/CMakeFiles/CMakeTmp' 나감
+Makefile:126: recipe for target 'cmTC_eaca6/fast' failed
+make: *** [cmTC_eaca6/fast] Error 2
+
+

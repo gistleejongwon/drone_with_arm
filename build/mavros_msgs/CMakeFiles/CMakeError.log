@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/jongwon/catkin_ws/build/mavros_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b835f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b835f.dir/build.make CMakeFiles/cmTC_b835f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_40e73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40e73.dir/build.make CMakeFiles/cmTC_40e73.dir/build
 make[1]: 디렉터리 '/home/jongwon/catkin_ws/build/mavros_msgs/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_b835f.dir/CheckSymbolExists.c.o
-/usr/lib/ccache/cc    -o CMakeFiles/cmTC_b835f.dir/CheckSymbolExists.c.o   -c /home/jongwon/catkin_ws/build/mavros_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_b835f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b835f.dir/link.txt --verbose=1
-/usr/lib/ccache/cc      -rdynamic CMakeFiles/cmTC_b835f.dir/CheckSymbolExists.c.o  -o cmTC_b835f 
-CMakeFiles/cmTC_b835f.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_40e73.dir/CheckSymbolExists.c.o
+/usr/lib/ccache/cc    -o CMakeFiles/cmTC_40e73.dir/CheckSymbolExists.c.o   -c /home/jongwon/catkin_ws/build/mavros_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_40e73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40e73.dir/link.txt --verbose=1
+/usr/lib/ccache/cc      -rdynamic CMakeFiles/cmTC_40e73.dir/CheckSymbolExists.c.o  -o cmTC_40e73 
+CMakeFiles/cmTC_40e73.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_b835f.dir/build.make:97: recipe for target 'cmTC_b835f' failed
-make[1]: *** [cmTC_b835f] Error 1
+CMakeFiles/cmTC_40e73.dir/build.make:97: recipe for target 'cmTC_40e73' failed
+make[1]: *** [cmTC_40e73] Error 1
 make[1]: 디렉터리 '/home/jongwon/catkin_ws/build/mavros_msgs/CMakeFiles/CMakeTmp' 나감
-Makefile:126: recipe for target 'cmTC_b835f/fast' failed
-make: *** [cmTC_b835f/fast] Error 2
+Makefile:126: recipe for target 'cmTC_40e73/fast' failed
+make: *** [cmTC_40e73/fast] Error 2
 
 File /home/jongwon/catkin_ws/build/mavros_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/jongwon/catkin_ws/build/mavros_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dfb59/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dfb59.dir/build.make CMakeFiles/cmTC_dfb59.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ff8ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ff8ac.dir/build.make CMakeFiles/cmTC_ff8ac.dir/build
 make[1]: 디렉터리 '/home/jongwon/catkin_ws/build/mavros_msgs/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_dfb59.dir/CheckFunctionExists.c.o
-/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_dfb59.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_dfb59
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfb59.dir/link.txt --verbose=1
-/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_dfb59.dir/CheckFunctionExists.c.o  -o cmTC_dfb59 -lpthreads 
+Building C object CMakeFiles/cmTC_ff8ac.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ff8ac.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ff8ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff8ac.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ff8ac.dir/CheckFunctionExists.c.o  -o cmTC_ff8ac -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_dfb59.dir/build.make:97: recipe for target 'cmTC_dfb59' failed
-make[1]: *** [cmTC_dfb59] Error 1
+CMakeFiles/cmTC_ff8ac.dir/build.make:97: recipe for target 'cmTC_ff8ac' failed
+make[1]: *** [cmTC_ff8ac] Error 1
 make[1]: 디렉터리 '/home/jongwon/catkin_ws/build/mavros_msgs/CMakeFiles/CMakeTmp' 나감
-Makefile:126: recipe for target 'cmTC_dfb59/fast' failed
-make: *** [cmTC_dfb59/fast] Error 2
+Makefile:126: recipe for target 'cmTC_ff8ac/fast' failed
+make: *** [cmTC_ff8ac/fast] Error 2
 
 

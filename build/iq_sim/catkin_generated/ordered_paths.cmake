@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/opt/ros/melodic/lib")
+set(ORDERED_PATHS "/home/jongwon/catkin_ws/devel/.private/controller_manager/lib;/home/jongwon/catkin_ws/devel/.private/joint_state_controller/lib;/home/jongwon/catkin_ws/devel/.private/realtime_tools/lib;/opt/ros/melodic/lib")

@@ -1,0 +1,8 @@
+prefix=/home/jongwon/catkin_ws/devel/.private/hardware_interface
+
+Name: hardware_interface
+Description: Description of hardware_interface
+Version: 0.18.4
+Cflags: -I/home/jongwon/catkin_ws/src/ros_control/hardware_interface/include
+Libs: -L${prefix}/lib 
+Requires: roscpp

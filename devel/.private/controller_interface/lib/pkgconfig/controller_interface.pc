@@ -1,0 +1,8 @@
+prefix=/home/jongwon/catkin_ws/devel/.private/controller_interface
+
+Name: controller_interface
+Description: Description of controller_interface
+Version: 0.18.4
+Cflags: -I/home/jongwon/catkin_ws/src/ros_control/controller_interface/include
+Libs: -L${prefix}/lib 
+Requires: hardware_interface roscpp
